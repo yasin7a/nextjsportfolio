@@ -1,0 +1,119 @@
+.slider {
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  font-family: $font2;
+  flex-direction: column;
+  a {
+    text-decoration: none;
+    height: 100%;
+    .browser {
+      position: relative;
+      width: 395px;
+      height: 85%;
+      border-radius: 10px;
+      z-index: 1;
+      margin-right: 20px;
+      transition: transform $transition;
+      &:hover {
+        transform: scale(0.99);
+
+        .browser-body {
+          .info,
+          code {
+            opacity: 0;
+            transform: translateY(15px);
+          }
+          .img {
+            filter: blur(0px);
+            &::before {
+              opacity: 0;
+            }
+          }
+        }
+      }
+
+      .browser-body {
+        overflow: hidden;
+        height: 100%;
+        color: $colo1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 10px;
+        text-transform: capitalize;
+        position: relative;
+        border: 16px solid #171424;
+
+        .img {
+          position: absolute;
+          width: 100%;
+          inset: 0;
+          height: 100%;
+          filter: blur(5px);
+          transition: filter $transition;
+          transition-delay: 0.7s;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+          &::before {
+            content: "";
+            height: 100%;
+            width: 100%;
+            background: rgba(7, 4, 23, 0.7);
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            transition: opacity $transition;
+            transition-delay: 0.7s;
+          }
+        }
+        .info {
+          position: relative;
+          z-index: 99;
+          transition: $transition;
+          transition-property: opacity, transform;
+          letter-spacing: 1px;
+          transition-delay: 0.7s;
+
+          h3 {
+            font-weight: 600;
+          }
+          p {
+            font-size: 15px;
+            font-weight: 400;
+          }
+          .tech {
+            span {
+              background: linear-gradient(298deg, #000, #0c053c);
+              padding: 2px 7px;
+              padding-bottom: 2px;
+              margin-right: 10px;
+              border-radius: 6px;
+              font-weight: bold;
+              margin-top: 11px;
+              display: inline-block;
+              font-size: 18px;
+              text-transform: capitalize;
+              font-weight: 500;
+              box-shadow: 0px 5px 6px #01000b81;
+            }
+          }
+        }
+        code {
+          font-family: $font1;
+          font-size: 2.5rem;
+          position: absolute;
+          right: 0.8rem;
+          bottom: 0rem;
+          transition: $transition;
+          transition-property: opacity, transform;
+          transition-delay: 0.7s;
+          mix-blend-mode: difference;
+        }
+      }
+    }
+  }
+}
