@@ -29,7 +29,7 @@ $outerapace: 14px;
   src: url(../font/Sportzan-GOYLg.ttf);
 }
 
-// =============================== 
+// ===============================
 @mixin maxBreakpoint($breakpoints) {
   @media (max-width: ($breakpoints)) {
     @content;
@@ -558,7 +558,9 @@ body {
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-
+      & .slider a .browser {
+        margin-right: 5px;
+      }
       @include maxBreakpoint(560px) {
         & .slider a .browser {
           width: 345px;

@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 import SvgImg from "./SvgImg";
 
 const Header = ({ data }) => {
@@ -19,13 +19,15 @@ const Header = ({ data }) => {
         <div className="container">
           <nav>
             <div className="logo">
-              <a href="/" onMouseEnter={handleenter} onMouseLeave={handleleave}>
-                <SvgImg />
-                <span className="ya animationscreenproblem">
-                  <span>Y</span>
-                  <span>A</span>
-                </span>
-              </a>
+              <Link href="/">
+                <a onMouseEnter={handleenter} onMouseLeave={handleleave}>
+                  <SvgImg />
+                  <span className="ya animationscreenproblem">
+                    <span>Y</span>
+                    <span>A</span>
+                  </span>
+                </a>
+              </Link>
             </div>
             <div className="projectCount animationscreenproblem">
               <h4 data-count={data.length}>projects</h4>
