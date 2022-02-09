@@ -43,7 +43,6 @@ class MyDocument extends Document {
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="application-name" content="noteact" />
           <meta name="apple-mobile-web-app-title" content="noteact" />
-          <link rel="apple-touch-icon" href="/icon-192x192.png" />
 
           <link rel="icon" href="/favicon.png" />
           <link

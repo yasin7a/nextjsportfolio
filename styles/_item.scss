@@ -68,6 +68,7 @@
             z-index: 0;
             transition: opacity $transition;
             transition-delay: 0.7s;
+            z-index: 1;
           }
         }
         .info {
@@ -111,7 +112,6 @@
           transition: $transition;
           transition-property: opacity, transform;
           transition-delay: 0.7s;
-          mix-blend-mode: difference;
         }
       }
     }
