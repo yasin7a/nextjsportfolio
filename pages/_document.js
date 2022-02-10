@@ -9,40 +9,40 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
           <meta name="theme-color" content="#070724" />
-          <meta name="author" content="noteact" />
-          <meta name="title" content="Noteact | Note App" />
+          <meta name="author" content="Yasin" />
+          <meta name="title" content="Yasin | Portfolio" />
           <meta
             name="description"
-            content="100% free PWA note App website to store your plan. easy to use and also can be install in your phone"
+            content="A passionate javascript full-stack developer .Love to learning and sharing my knowledge with others."
           />
           <meta
             name="keywords"
-            content="notes, notes, app, notebook, note app, book, business, startup, write, keep, store, 100% free, no pricing, noteact"
+            content="website, portfolio, yasin, yasindev, react js, next js, full stact, developer, frontend, backend, html, css, javascript, js dev, node js, express js, "
           />
-          <link rel="canonical" href="https://noteact.lebriact.com/" />
+          <link rel="canonical" href="https://yasindev.netlify.app/" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Noteact | Note App" />
+          <meta property="og:title" content="Yasin | Portfolio" />
           <meta
             property="og:description"
-            content="100% free PWA note App website to store your plan. easy to use and also can be install in your phone"
+            content="A passionate javascript full-stack developer .Love to learning and sharing my knowledge with others."
           />
           <meta property="og:image" content="/img/og.png" />
-          <meta property="og:url" content="https://noteact.lebriact.com/" />
-          <meta property="og:site_name" content="noteact" />
+          <meta property="og:url" content="https://yasindev.netlify.app/" />
+          <meta property="og:site_name" content="Yasin" />
 
-          <meta name="twitter:domain" content="https://noteact.lebriact.com/" />
-          <meta name="twitter:title" content="Noteact | Note App" />
+          <meta name="twitter:domain" content="https://yasindev.netlify.app/" />
+          <meta name="twitter:title" content="Yasin | Portfolio" />
           <meta
             name="twitter:description"
-            content="100% free PWA note App website to store your plan. easy to use and also can be install in your phone"
+            content="A passionate javascript full-stack developer .Love to learning and sharing my knowledge with others."
           />
-          <meta name="twitter:image" content="/img/og.png" />
-          <meta name="twitter:site" content="@noteact" />
-          <meta name="twitter:creator" content="@noteact" />
+          <meta name="twitter:image" content="/og.png" />
+          <meta name="twitter:site" content="@Yasin" />
+          <meta name="twitter:creator" content="@Yasin" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="application-name" content="noteact" />
-          <meta name="apple-mobile-web-app-title" content="noteact" />
+          <meta name="application-name" content="Yasin" />
+          <meta name="apple-mobile-web-app-title" content="Yasin" />
 
           <link rel="icon" href="/favicon.png" />
           <link
