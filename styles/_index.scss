@@ -563,7 +563,7 @@ body {
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      & .slider a .browser {
+      & .slider .browser {
         margin-right: 5px;
       }
       @include maxBreakpoint(560px) {
