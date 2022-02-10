@@ -436,6 +436,11 @@ body {
           }
           @include maxBreakpoint(768px) {
             margin-left: 30%;
+
+            & *,
+            & *::before {
+              transition-delay: unset !important;
+            }
           }
           @include maxBreakpoint(560px) {
             margin-left: 40%;
