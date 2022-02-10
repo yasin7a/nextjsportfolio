@@ -566,7 +566,7 @@ body {
         margin-right: 5px;
       }
       @include maxBreakpoint(560px) {
-        & .slider a .browser {
+        & .slider .browser {
           width: 345px;
           height: 68%;
           margin-right: 0;
