@@ -1,7 +1,7 @@
 import data from "../data/slider";
 
 import Link from "next/link";
-import Items from "./items";
+import Items from "./Items";
 const ViewAllItem = () => {
   return (
     <>

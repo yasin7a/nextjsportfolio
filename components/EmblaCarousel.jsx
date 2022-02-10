@@ -3,7 +3,7 @@ import { PrevButton, NextButton } from "./EmblaCarouselButtons";
 import useEmblaCarousel from "embla-carousel-react";
 import Link from "next/link";
 import Image from "next/image";
-import Items from "./items";
+import Items from "./Items";
 
 const EmblaCarousel = ({ slides }) => {
   const [viewportRef, embla] = useEmblaCarousel({
