@@ -84,7 +84,7 @@ const Profile = () => {
               <BsSkype />
             </a>
 
-            <a href="https://github.com/yasinarafath">
+            <a href="https://github.com/yasin7a">
               <BsGithub />
             </a>
             <a href="https://linkedin.com/in/yasin-arafath-80ab22207">
