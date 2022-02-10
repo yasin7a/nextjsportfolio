@@ -578,16 +578,16 @@ body {
 }
 
 // =========================
-.animationscreenproblem {
-  visibility: hidden;
-  animation: opc 1s ease forwards;
-  animation-delay: 1s;
-  @keyframes opc {
-    100% {
-      visibility: visible;
-    }
-  }
-}
+// .animationscreenproblem {
+//   visibility: hidden;
+//   animation: opc 1s ease forwards;
+//   animation-delay: 1s;
+//   @keyframes opc {
+//     100% {
+//       visibility: visible;
+//     }
+//   }
+// }
 
 // ========================================
 body.logopush .cursor {
