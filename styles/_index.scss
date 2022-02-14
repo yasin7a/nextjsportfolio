@@ -38,6 +38,7 @@ $outerapace: 14px;
 
 body {
   background: $body;
+  text-rendering: optimizeSpeed;
 
   .loading-container {
     position: fixed;
@@ -316,6 +317,8 @@ body {
             span {
               span {
                 display: inline-block;
+                will-change: transform;
+
               }
             }
           }
@@ -330,6 +333,8 @@ body {
             span {
               span {
                 display: inline-block;
+                will-change: transform;
+
               }
             }
             @include maxBreakpoint(768px) {
