@@ -19,7 +19,7 @@ $colo1: #dbdbdb;
 $color2: #999a9e;
 $font1: "myFirstFont", sans-serif;
 $font2: "Dosis", sans-serif;
-$body: linear-gradient(298deg, #050017, #150808);
+$body: linear-gradient(298deg, #050017, #351e0d);
 $transition: 0.4s ease-in;
 $outerapace: 14px;
 // ===============================
@@ -236,7 +236,7 @@ body {
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        color: #18181e70;
+        color: #75757521;
         font-family: $font1;
         z-index: -1;
         pointer-events: none;
@@ -253,7 +253,21 @@ body {
       }
       .profile {
         color: $colo1;
-
+        .kinticBtn {
+          display: block;
+          margin-top: 16px;
+          padding: 6px 26px;
+          font-size: 1rem;
+          border: 1px solid #372929;
+          color: #fff;
+          background: #0b0b0d;
+          border-radius: 4px;
+          font-family: $font2;
+          cursor: pointer;
+          transition: background $transition;
+          &:hover {
+            background: #0b0b0dd7;          }
+        }
         .title {
           position: relative;
           display: inline-block;
@@ -271,7 +285,7 @@ body {
               z-index: -1;
               transform: scale(0.8);
               width: 10rem;
-              background-color: #1e1e1e;
+              background-color: #070615;
               color: #880707;
               font-family: $font2;
               display: grid;
@@ -621,5 +635,6 @@ body.itempush .cursor::before {
 
 // ===================================
 @import "./_item";
+@import "./_kintic";
 
 // ======================

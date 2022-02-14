@@ -1,0 +1,103 @@
+:root {
+  --tx: 0px;
+  --ty: 0px;
+  --rotate: 0deg;
+  --scale: 1;
+}
+
+.wrapper {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateY(20px) scale(1.5);
+  overflow: hidden;
+  font-family: $font1;
+  @include maxBreakpoint(600px) {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .wrapper-box {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    transform: translateX(var(--tx)) translateY(var(--ty)) rotate(var(--rotate))
+      scale(var(--scale));
+    transform-origin: calc(50% - var(--tx)) calc(50% - var(--ty)) 0px;
+    .text {
+      position: absolute;
+      top: 0;
+      transform-origin: 0% 0%;
+      font-size: 25px;
+      margin: 0;
+      padding: 0;
+      top: 100px;
+      line-height: 1;
+      color: #971d1d;
+    }
+    .i {
+      top: 72px;
+      left: 34px;
+      font-size: 24px;
+      height: 70px;
+      line-height: 70px;
+      transform: rotate(-91deg);
+    }
+    .frontend {
+      top: -3px;
+      left: 87px;
+      font-size: 18px;
+      letter-spacing: 1px;
+      width: 119px;
+    }
+    .engineer {
+      top: 30px;
+      left: 80px;
+      font-size: 40px;
+      letter-spacing: 1px;
+    }
+    .with {
+      top: 74px;
+      left: 265px;
+      font-size: 36px;
+      transform: rotate(90deg);
+      background: #9f2121;
+      color: #fff;
+      padding: 0px 4px;
+    }
+    .javascript {
+      top: 74px;
+      left: 229px;
+      transform: rotate(90deg);
+      font-size: 35px;
+    }
+    .typescript {
+      top: 72px;
+      right: 110px;
+      font-size: 25px;
+    }
+    .css {
+      top: 99px;
+      right: 100px;
+      font-size: 19px;
+      width: 98px;
+    }
+    .nodejs {
+      top: 134px;
+      right: 110px;
+      font-size: 35px;
+    }
+    .animation {
+      top: 171px;
+      right: 96px;
+      font-size: 16px;
+      width: 97px;
+    }
+    .scenejs {
+      top: 205px;
+      right: 110px;
+      font-size: 22px;
+    }
+  }
+}

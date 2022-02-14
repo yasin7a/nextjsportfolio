@@ -68,6 +68,10 @@ function App() {
         duration: 0.6,
         ease: "Power2.easeInOut",
       })
+      .from(".kinticBtn", {
+        y: 10,
+        opacity: 0,
+      })
       .from(".social_icon a svg", {
         opacity: 0,
         y: 10,
@@ -96,7 +100,6 @@ function App() {
   return (
     <>
       {cursorDis && <Cursor />}
-
       <div className="App">
         <Header data={data} />
         <Section data={data} />
@@ -107,8 +110,6 @@ function App() {
           </p>
         </footer>
       </div>
-
-    
     </>
   );
 }

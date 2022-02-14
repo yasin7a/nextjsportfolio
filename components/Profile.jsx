@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { BsFacebook, BsLinkedin, BsGithub, BsSkype } from "react-icons/bs";
 import { SplitWords } from "react-gsap";
 import TrailImg from "./TrailImg";
-const Profile = () => {
+const Profile = ({ handleplay }) => {
   let [istrail, setIstrain] = useState(false);
   let [trailop, setTrainOp] = useState(false);
   let [trailDis, setTrailDis] = useState(false);
@@ -71,6 +71,9 @@ const Profile = () => {
             </SplitWords>
           </p>
         </div>
+        <button className="kinticBtn" onClick={handleplay}>
+          My Skills
+        </button>
         <div>
           <div
             className="social_icon"
@@ -93,6 +96,8 @@ const Profile = () => {
             <span></span>
           </div>
         </div>
+
+        
       </div>
     </>
   );
