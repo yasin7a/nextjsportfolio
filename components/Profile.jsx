@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { BsFacebook, BsLinkedin, BsGithub, BsSkype } from "react-icons/bs";
+import {AiFillFire} from "react-icons/ai"
 import { SplitWords } from "react-gsap";
 import TrailImg from "./TrailImg";
 const Profile = ({ handleplay }) => {
@@ -73,6 +74,7 @@ const Profile = ({ handleplay }) => {
         </div>
         <button className="kinticBtn" onClick={handleplay}>
           My Skills
+          <AiFillFire/>
         </button>
         <div>
           <div

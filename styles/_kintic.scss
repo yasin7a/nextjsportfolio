@@ -1,6 +1,6 @@
 :root {
-  --tx: 0rem;
-  --ty: 0rem;
+  --tx: 0px;
+  --ty: 0px;
   --rotate: 0deg;
   --scale: 1;
 }
@@ -25,6 +25,7 @@
     transform: translateX(var(--tx)) translateY(var(--ty)) rotate(var(--rotate))
       scale(var(--scale));
     transform-origin: calc(50% - var(--tx)) calc(50% - var(--ty)) 0rem;
+    will-change: transform;
     .text {
       position: absolute;
       top: 0;
@@ -34,7 +35,7 @@
       padding: 0;
       top: 6.25rem;
       line-height: 1;
-      color: #971d1d;
+      color: #c17736;
     }
     .i {
       top: 4.5rem;
@@ -62,7 +63,7 @@
       left: 16.5625rem;
       font-size: 2.25rem;
       transform: rotate(90deg);
-      background: #9f2121;
+      background: #c17736;
       color: #fff;
       padding: 0rem 0.25rem;
     }

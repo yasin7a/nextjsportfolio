@@ -30,10 +30,11 @@ const Section = ({ data }) => {
     kinetic.current = gsap
       .timeline({
         paused: true,
-        defaults: { duration: 0.7, ease: " Expo.easeOut" },
+        defaults: { duration: 0.7 },
       })
       .to("section", {
-        scale: 0,
+        scale: 0.9,
+        opacity: 0,
       })
       .to(".wrapper-box", move(90, 115, 0, 4))
       .from(".i", textMove())
@@ -62,6 +63,7 @@ const Section = ({ data }) => {
       })
       .to("section", {
         scale: 1,
+        opacity: 1,
       });
     return () => {
       kinetic.current.kill();
