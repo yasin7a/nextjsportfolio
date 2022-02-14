@@ -1,5 +1,5 @@
 .slider {
-  height: 240px;
+  height: 15rem;
   display: flex;
   justify-content: center;
   font-family: $font2;
@@ -10,21 +10,21 @@
   }
   .browser {
     position: relative;
-    width: 395px;
+    width: 24.6875rem;
     height: 85%;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     z-index: 1;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     &:hover {
 
       .browser-body {
         .info,
         code {
           opacity: 0;
-          transform: translateY(15px);
+          transform: translateY(0.9375rem);
         }
         .img {
-          filter: blur(0px);
+          filter: blur(0);
           &::before {
             opacity: 0;
           }
@@ -40,9 +40,9 @@
     a {
       background: #1a0b74;
       color: $colo1;
-      padding: 5px 7px;
-      border-radius: 6px;
-      font-size: 18px;
+      padding: 0.3125rem 0.4375rem;
+      border-radius: 0.375rem;
+      font-size: 1.125rem;
       text-transform: capitalize;
       font-weight: 500;
       opacity: 0;
@@ -61,17 +61,17 @@
       display: flex;
       justify-content: center;
       flex-direction: column;
-      padding: 0 10px;
+      padding: 0 0.625rem;
       text-transform: capitalize;
       position: relative;
-      border: 16px solid #171424;
+      border: 1rem solid #171424;
 
       .img {
         position: absolute;
         width: 100%;
         inset: 0;
         height: 100%;
-        filter: blur(5px);
+        filter: blur(0.3125rem);
         transition: filter $transition;
         transition-delay: 0.7s;
 
@@ -97,29 +97,29 @@
         z-index: 99;
         transition: $transition;
         transition-property: opacity, transform;
-        letter-spacing: 1px;
+        letter-spacing: 0.0625rem;
         transition-delay: 0.7s;
         user-select: none;
         h3 {
           font-weight: 600;
         }
         p {
-          font-size: 15px;
+          font-size: 0.9375rem;
           font-weight: 400;
         }
         .tech {
           span {
             background: linear-gradient(298deg, #000, #0c053c);
-            padding: 2px 7px;
-            padding-bottom: 2px;
-            margin-right: 10px;
-            border-radius: 6px;
-            margin-top: 11px;
+            padding: 0.125rem 0.4375rem;
+            padding-bottom: 0.125rem;
+            margin-right: 0.625rem;
+            border-radius: 0.375rem;
+            margin-top: 0.6875rem;
             display: inline-block;
-            font-size: 18px;
+            font-size: 1.125rem;
             text-transform: capitalize;
             font-weight: 500;
-            box-shadow: 0px 5px 6px #01000b81;
+            box-shadow: 0rem 0.3125rem 0.375rem #01000b81;
           }
         }
       }
