@@ -22,7 +22,7 @@ const data = [
     description: " lorem ipsum dolor lorem fhdfs",
     techs: ["javascript", "jquery", "html", "css"],
     img: img2,
-    link: "https://le-codesign.com/",
+    link: "https://millat.netlify.app",
   },
   {
     id: 3,
