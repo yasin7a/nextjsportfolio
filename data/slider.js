@@ -4,7 +4,7 @@ import img3 from "../public/img/img3.png";
 import img4 from "../public/img/img4.png";
 import img5 from "../public/img/img5.png";
 import img6 from "../public/img/img6.png";
-import img7 from "https://res.cloudinary.com/dxson6ty4/image/upload/v1673275277/Screenshot_2023-01-09_at_20-40-44_Eventizer_Organize_Your_Event_Hassle_Free_jknbrk.png";
+import img7 from "../public/img/img70.png";
 import img8 from "../public/img/img8.png";
 
 const data = [
