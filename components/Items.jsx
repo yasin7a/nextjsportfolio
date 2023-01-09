@@ -18,7 +18,6 @@ const Items = ({ data }) => {
                 </div>
                 <div className="info">
                   <h3>{item.title}</h3>
-                  <p>{item.description}</p>
                   <div className="tech">
                     {item.techs.map((tech, index) => {
                       return <span key={index}>{tech}</span>;
