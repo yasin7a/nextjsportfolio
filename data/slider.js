@@ -58,11 +58,11 @@ const data = [
   },
   {
     id: 7,
-    title: "Link Shortener",
+    title: "Eventizer,
     description: " lorem ipsum dolor lorem fhdfs",
-    techs: ["node", "ajax", "html", "css"],
+    techs: ["nextjs", "react", "aws-amplify", "tailwindcss"],
     img: img7,
-    link: "https://lb9.xyz/",
+    link: "https://myeventizer.com/",
   },
   {
     id: 8,
