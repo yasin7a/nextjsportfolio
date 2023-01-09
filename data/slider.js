@@ -10,11 +10,11 @@ import img8 from "../public/img/img8.png";
 const data = [
   {
     id: 1,
-    title: "Note App",
+    title: "Eventizer",
     description: " lorem ipsum dolor lorem fhdfs",
-    techs: ["next", "react", "tailwind", "html", "css"],
-    img: img1,
-    link: "https://noteact.netlify.app/",
+    techs: ["nextjs", "react", "aws-amplify", "tailwindcss"],
+    img: img7,
+    link: "https://myeventizer.com/",    
   },
   {
     id: 2,
@@ -58,11 +58,11 @@ const data = [
   },
   {
     id: 7,
-    title: "Eventizer",
+   title: "Note App",
     description: " lorem ipsum dolor lorem fhdfs",
-    techs: ["nextjs", "react", "aws-amplify", "tailwindcss"],
-    img: img7,
-    link: "https://myeventizer.com/",
+    techs: ["next", "react", "tailwind", "html", "css"],
+    img: img1,
+    link: "https://noteact.netlify.app/",
   },
   {
     id: 8,
