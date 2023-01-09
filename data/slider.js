@@ -58,7 +58,7 @@ const data = [
   },
   {
     id: 7,
-    title: "Eventizer,
+    title: "Eventizer",
     description: " lorem ipsum dolor lorem fhdfs",
     techs: ["nextjs", "react", "aws-amplify", "tailwindcss"],
     img: img7,
